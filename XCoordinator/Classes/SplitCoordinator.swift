@@ -6,6 +6,9 @@
 //  Copyright © 2018 QuickBird Studios. All rights reserved.
 //
 
+///
+/// SplitTransition offers different transitions common to a `UISplitViewController` rootViewController.
+///
 public typealias SplitTransition = Transition<UISplitViewController>
 
 ///
