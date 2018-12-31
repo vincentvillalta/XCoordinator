@@ -20,7 +20,7 @@ public typealias SplitTransition = Transition<UISplitViewController>
 ///
 open class SplitCoordinator<RouteType: Route>: BaseCoordinator<RouteType, SplitTransition> {
 
-    // MARK: - Init
+    // MARK: - Initialization
 
     public override init(initialRoute: RouteType?) {
         super.init(initialRoute: initialRoute)
